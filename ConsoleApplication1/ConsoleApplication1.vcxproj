@@ -173,10 +173,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Downloads\caixa_decisao.png" />
     <Image Include="..\..\..\..\Downloads\derrota.png" />
     <Image Include="..\..\..\..\Downloads\mapa_hud.png" />
     <Image Include="..\..\..\..\Downloads\vitoria.png" />
+    <Image Include="personagem.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

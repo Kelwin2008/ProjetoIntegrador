@@ -23,9 +23,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Downloads\caixa_decisao.png">
-      <Filter>Arquivos de Recurso</Filter>
-    </Image>
     <Image Include="..\..\..\..\Downloads\vitoria.png">
       <Filter>Arquivos de Recurso</Filter>
     </Image>
@@ -33,6 +30,9 @@
       <Filter>Arquivos de Recurso</Filter>
     </Image>
     <Image Include="..\..\..\..\Downloads\derrota.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="personagem.png">
       <Filter>Arquivos de Recurso</Filter>
     </Image>
   </ItemGroup>
