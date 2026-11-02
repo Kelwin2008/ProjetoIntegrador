@@ -133,13 +133,13 @@ int main() {
     ALLEGRO_BITMAP* img_mapa = carregar_e_otimizar_bitmap("mapa_hud.png");
     ALLEGRO_BITMAP* img_vitoria = carregar_e_otimizar_bitmap("vitoria.png");
     ALLEGRO_BITMAP* img_derrota = carregar_e_otimizar_bitmap("derrota.png");
-    ALLEGRO_BITMAP* img_personagem = carregar_e_otimizar_bitmap("personagem.png"); // precisamos colocar em PNG
+    ALLEGRO_BITMAP* img_personagem = carregar_e_otimizar_bitmap("personagem.jpg"); // precisamos colocar em PNG
 
     // mostra exatamente qual arquivo falhou (nós fizemos)
     if (!img_mapa)       printf("Falhou: mapa_hud.png\n");
     if (!img_vitoria)    printf("Falhou: vitoria.png\n");
     if (!img_derrota)    printf("Falhou: derrota.png\n");
-    if (!img_personagem) printf("Falhou: personagem.png\n"); // precisamos colocar em PNG
+    if (!img_personagem) printf("Falhou: personagem.jpg\n"); // precisamos colocar em PNG
 
     if (!img_mapa || !img_vitoria || !img_derrota || !img_personagem) {
         system("pause");
